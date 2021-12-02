@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.scss';
 
 import LikeButton from './components/LikeButton/LikeButton';
+import Button from './components/Button/Button';
 
 function App() {
   const [like,setLike] = useState(false);
@@ -18,6 +19,7 @@ function App() {
         count={120}
         onClick={()=>onLike()}
       />
+      <Button/>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+@import '../../sass/variables';
+
+.btn{
+    background-color: $green;
+    border: transparent;
+    font-family: $ff-silkscreen;
+    font-size: 1.6rem;
+    font-weight: $fw-bold;
+    color: $white;
+    padding: 6px;
+    cursor: pointer;
+
+    &--full{
+        width: 100%;
+    }
+
+    &--red{
+        background-color: $red;
+        color: $black;
+    }
+
+    &--post{
+        background-color: $background;
+        color: $black;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: $green;
+            color: $white;
+        }
+    }
+}
