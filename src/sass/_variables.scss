@@ -1,0 +1,42 @@
+/* Colors */
+
+$black: #000000;
+$white: #ffffff;
+$background: #2E132C;
+$red: #F50D5A;
+$orange: #FF865C;
+$yellow: #FFEA5C;
+$green: #00DA76;
+$blue: #0096CE;
+$purple: #800FFF;
+
+/* Typography */
+
+@font-face {
+    src: url('../assets/fonts/silkscreen/slkscrb.ttf');
+    font-family: 'Silkscreen';
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('../assets/fonts/Fira_Code/static/FiraCode-Bold.ttf');
+    font-family: 'Fira Code';
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('../assets/fonts/Fira_Code/static/FiraCode-Regular.ttf') format('truetype');
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+}
+
+// Font Family - Body
+$ff-firacode: 'Fira Code';
+$ff-silkscreen: 'Silkscreen';
+
+// Font Weights
+$fw-regular: 400;
+$fw-bold: 700;

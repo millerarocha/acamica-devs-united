@@ -1,0 +1,26 @@
+@import '../../sass/variables';
+
+.like-btn{
+    display: flex;
+    align-items: center;
+
+    &__count{
+        font-size: 1.2rem;
+        font-weight: $fw-regular;
+        margin-left: 6px;
+        color: $white;
+
+        &--red{
+            color: $red;
+        }
+
+
+    }
+
+    &__img{
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+        cursor: pointer;
+    }
+}
