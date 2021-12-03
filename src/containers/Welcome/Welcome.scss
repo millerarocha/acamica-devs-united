@@ -1,12 +1,18 @@
+@import '../../sass/mixins';
+
 .welcome{
     height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     &__logo{
         width: 80%;
         height: 200px;
         object-fit: contain;
+    }
+
+    @include breakpoint-up(large) {        
+        width: 60%;        
     }
 }

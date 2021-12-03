@@ -1,4 +1,5 @@
 @import '../../sass/variables';
+@import '../../sass/mixins';
 
 .login{
     width: 80%;
@@ -9,6 +10,11 @@
         flex-direction: column;
         justify-content: space-around;
         height: 360px;
+
+        @include breakpoint-up(large) {        
+            width: 40%;
+            padding: 0 50px;        
+        }
     }
 
     &__title{
@@ -20,5 +26,11 @@
     &__text{
         font-weight: $fw-regular;
         font-size: 1.8rem;
+    }
+
+    @include breakpoint-up(large) {        
+        display: flex;
+        align-items: center;
+        height: 100vh;
     }
 }
