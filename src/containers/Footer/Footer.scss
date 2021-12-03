@@ -1,0 +1,15 @@
+@import '../../sass/variables';
+
+.footer{
+    text-align: center;
+
+    &__text{
+        font-weight: $fw-regular;
+        font-size: 1.4rem;
+        color: $inputColor;
+
+        span{
+            color: $red;
+        }
+    }
+}

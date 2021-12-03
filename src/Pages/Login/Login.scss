@@ -1,0 +1,24 @@
+@import '../../sass/variables';
+
+.login{
+    width: 80%;
+    margin: 0 auto;
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 360px;
+    }
+
+    &__title{
+        font-family: $ff-silkscreen;
+        font-weight: $fw-bold;
+        font-size: 3.6rem;
+    }
+
+    &__text{
+        font-weight: $fw-regular;
+        font-size: 1.8rem;
+    }
+}
