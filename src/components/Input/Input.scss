@@ -1,0 +1,28 @@
+@import '../../sass/variables';
+
+.input{
+    background-color: $black;
+    border: none;
+    padding: 15px;    
+    color: #914D8B;
+    font-family: $ff-firacode;
+    font-weight: $fw-regular;
+    font-size: 1.4rem;
+
+    &:focus{ 
+        outline: none;
+    }
+
+    &::placeholder{        
+        color: #914D8B;
+    }
+
+    &__label{
+        font-family: $ff-silkscreen;
+    }
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}

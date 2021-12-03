@@ -6,6 +6,7 @@ import LikeButton from './components/LikeButton/LikeButton';
 import Button from './components/Button/Button';
 import LoginButton from './components/LoginButton/LoginButton';
 import ColorButton from './components/ColorButton/ColorButton';
+import Input from './components/Input/Input';
 
 function App() {
   const [like,setLike] = useState(false);
@@ -33,9 +34,10 @@ function App() {
       />
       <ColorButton
         onClick={buttonTest}
-        selected={true}
-        color='red'
+        selected={false}
+        color='orange'
       />
+      <Input/>
     </div>
   );
 }
