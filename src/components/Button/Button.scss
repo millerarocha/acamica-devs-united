@@ -9,6 +9,15 @@
     color: $white;
     padding: 6px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &__icon{
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        margin-left: 5px;
+    }
 
     &--full{
         width: 100%;

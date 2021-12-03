@@ -9,6 +9,7 @@ import ColorButton from './components/ColorButton/ColorButton';
 import Input from './components/Input/Input';
 import TextArea from './components/TextArea/TextArea';
 import UserPicture from './components/UserPicture/UserPicture';
+import IconButton from './components/IconButton/IconButton';
 
 function App() {
   const [like,setLike] = useState(false);
@@ -41,7 +42,10 @@ function App() {
       />
       <Input/>
       <TextArea/>
-      <UserPicture/>
+      <UserPicture
+        onClick={buttonTest}
+      />
+      <IconButton/>
     </div>
   );
 }

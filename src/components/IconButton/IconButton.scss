@@ -1,0 +1,13 @@
+@import '../../sass/variables';
+
+.icon-btn{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    cursor: pointer;
+
+    &--small{
+        width: 18px;
+        height: 18px;
+    }
+}

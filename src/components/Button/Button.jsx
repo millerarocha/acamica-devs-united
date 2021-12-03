@@ -2,6 +2,7 @@ import React from 'react';
 import './Button.scss';
 
 const Button = ({
+    icon,
     isRed=false,
     isFull=false,
     isPost=false,
@@ -18,6 +19,10 @@ const Button = ({
             onClick={onClick}
         >
             {text}
+            {icon?
+                <img src={icon} alt="icon" className='btn__icon'/>
+                :""
+            }
         </button>
     )
 }
