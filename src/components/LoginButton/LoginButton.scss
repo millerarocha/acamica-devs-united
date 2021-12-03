@@ -1,0 +1,19 @@
+@import '../../sass/variables';
+
+.login-btn{
+    display: flex;
+    align-items: center;
+    background-color: $blue;
+    cursor: pointer;
+
+    &__icon{
+        background-color: $white;
+        padding: 10px;
+        object-fit: contain;
+    }
+
+    &__text{
+        width: 100%;
+        text-align: center;
+    }
+}

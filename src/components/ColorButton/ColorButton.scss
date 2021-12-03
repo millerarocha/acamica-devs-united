@@ -1,0 +1,28 @@
+@import '../../sass/variables';
+
+.color-btn{
+    width: 43px;
+    height: 43px;
+    border: none;
+    cursor: pointer;
+
+    &--selected{
+        border: 5px solid $white;
+    }
+
+    &--red{
+        background-color: $red;
+    }
+    &--blue{
+        background-color: $blue;
+    }
+    &--yellow{
+        background-color: $yellow;
+    }
+    &--green{
+        background-color: $green;
+    }
+    &--purple{
+        background-color: $purple;
+    }
+}
