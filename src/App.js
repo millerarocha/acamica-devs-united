@@ -8,6 +8,7 @@ import LoginButton from './components/LoginButton/LoginButton';
 import ColorButton from './components/ColorButton/ColorButton';
 import Input from './components/Input/Input';
 import TextArea from './components/TextArea/TextArea';
+import UserPicture from './components/UserPicture/UserPicture';
 
 function App() {
   const [like,setLike] = useState(false);
@@ -40,6 +41,7 @@ function App() {
       />
       <Input/>
       <TextArea/>
+      <UserPicture/>
     </div>
   );
 }
