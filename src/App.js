@@ -7,6 +7,7 @@ import Button from './components/Button/Button';
 import LoginButton from './components/LoginButton/LoginButton';
 import ColorButton from './components/ColorButton/ColorButton';
 import Input from './components/Input/Input';
+import TextArea from './components/TextArea/TextArea';
 
 function App() {
   const [like,setLike] = useState(false);
@@ -38,6 +39,7 @@ function App() {
         color='orange'
       />
       <Input/>
+      <TextArea/>
     </div>
   );
 }

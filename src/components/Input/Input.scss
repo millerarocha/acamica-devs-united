@@ -4,7 +4,7 @@
     background-color: $black;
     border: none;
     padding: 15px;    
-    color: #914D8B;
+    color: $inputColor;
     font-family: $ff-firacode;
     font-weight: $fw-regular;
     font-size: 1.4rem;
@@ -14,7 +14,7 @@
     }
 
     &::placeholder{        
-        color: #914D8B;
+        color: $inputColor;
     }
 
     &__label{
