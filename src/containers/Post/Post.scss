@@ -30,6 +30,7 @@
         padding: 20px 5%;
         background-color: $black;
         display: flex;
+        border-bottom: 1px solid $inputColor;
 
         @include breakpoint-up(large) {        
             padding: 20px 30%;        
