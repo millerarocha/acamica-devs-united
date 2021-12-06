@@ -1,0 +1,40 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+.welcome{
+    width: 80%;
+    margin: 0 auto;
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 360px;
+
+        @include breakpoint-up(large) {        
+            width: 40%;
+            padding: 0 50px;        
+        }
+    }
+
+    &__title{
+        font-family: $ff-silkscreen;
+        font-weight: $fw-bold;
+        font-size: 3.6rem;
+
+        span{
+            color: $red;
+        }
+    }
+
+    &__text{
+        font-weight: $fw-regular;
+        font-size: 1.8rem;
+    }
+
+    @include breakpoint-up(large) {        
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+}

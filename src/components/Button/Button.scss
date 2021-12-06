@@ -4,13 +4,14 @@
     background-color: $green;
     border: transparent;
     font-family: $ff-silkscreen;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     font-weight: $fw-bold;
     color: $white;
-    padding: 6px;
+    padding: 16px;
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     &__icon{
         width: 20px;

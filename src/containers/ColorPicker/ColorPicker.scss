@@ -1,0 +1,15 @@
+@import '../../sass/variables';
+
+.color-picker{
+
+    &__title{
+        font-size: 1.8rem;
+        font-weight: $fw-regular;
+        margin-bottom: 10px;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+}

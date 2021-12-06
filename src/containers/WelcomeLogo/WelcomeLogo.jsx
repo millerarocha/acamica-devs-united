@@ -1,9 +1,9 @@
 import React from 'react';
-import './Welcome.scss';
+import './WelcomeLogo.scss';
 
 import logo from '../../assets/images/logo-big.png';
 
-const Welcome = () => {
+const WelcomeLogo = () => {
     return (
         <header className='welcome'>
             <img src={logo} alt="devs united logo" className='welcome__logo'/>
@@ -11,4 +11,4 @@ const Welcome = () => {
     )
 }
 
-export default Welcome;
+export default WelcomeLogo;

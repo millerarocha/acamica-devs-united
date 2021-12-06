@@ -1,0 +1,32 @@
+export const colors = [
+    {
+        id:0,
+        name:'red',
+        checked:false
+    },
+    {
+        id:1,
+        name:'orange',
+        checked:false
+    },
+    {
+        id:2,
+        name:'yellow',
+        checked:false
+    },
+    {
+        id:3,
+        name:'green',
+        checked:false
+    },
+    {
+        id:4,
+        name:'blue',
+        checked:false
+    },
+    {
+        id:5,
+        name:'purple',
+        checked:false
+    }
+];
