@@ -1,0 +1,45 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+.post{
+
+    
+
+    &-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 5%;
+
+        &__logo{
+            display: flex;
+            justify-content: space-between;
+
+            img{
+                object-fit: contain;
+                margin: 0 5px;
+            }
+        }
+
+        @include breakpoint-up(large) {        
+            padding: 8px 30%;        
+        }
+    }
+
+    &__container{
+        padding: 20px 5%;
+        background-color: $black;
+        display: flex;
+
+        @include breakpoint-up(large) {        
+            padding: 20px 30%;        
+        }
+    }
+
+    &__form{
+        width: 100%;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}

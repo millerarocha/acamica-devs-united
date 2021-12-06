@@ -33,6 +33,9 @@
         background-color: $background;
         color: $black;
         transition: 0.5s;
+        padding: 8px;
+        width: fit-content;
+        align-self: flex-end;
 
         &:hover{
             background-color: $green;
