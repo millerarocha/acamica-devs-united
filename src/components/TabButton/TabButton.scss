@@ -1,0 +1,18 @@
+@import '../../sass/variables';
+
+.tab-btn{
+    background-color: $black;
+    color: $inputColor;
+    border: none;
+    padding: 8px 0;
+    text-align: center;
+    width: 50%;
+    font-family: $ff-silkscreen;
+    font-size: 2rem;
+    cursor: pointer;
+
+    &--selected{
+        background-color: $inputColor;
+        color: $black;
+    }
+}

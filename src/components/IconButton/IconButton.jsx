@@ -5,7 +5,7 @@ import image from '../../assets/images/leftarrow.svg';
 
 const IconButton = ({
     icon,
-    
+    text=''
 }) => {
     return (
         <>
@@ -14,6 +14,9 @@ const IconButton = ({
                 alt="icon"
                 className='icon-btn'
             />
+            <p className="icon-btn__text">
+                {text}
+            </p>
         </>
     )
 }

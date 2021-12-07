@@ -10,4 +10,11 @@
         width: 18px;
         height: 18px;
     }
+
+    &__text{
+        font-family: $ff-silkscreen;
+        color: $white;
+        font-size: 2rem;
+        font-weight: $fw-regular;
+    }
 }

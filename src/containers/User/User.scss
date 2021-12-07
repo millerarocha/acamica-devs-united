@@ -1,0 +1,60 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+.user{
+
+    background-color: $black;
+    border-bottom: 1px solid $inputColor;
+    
+    &-header{
+        background-color: $background;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 5%;
+
+        @include breakpoint-up(large) {        
+            padding: 8px 30%;        
+        }
+
+        &__info{
+            display: flex;
+            align-items: center;
+
+            &-text{
+                font-family: $ff-silkscreen;
+                font-size: 1.8rem;
+                font-weight: $fw-regular;
+            }
+        }
+    }
+
+    &__container{
+        padding: 20px 5%;
+        background-color: $black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include breakpoint-up(large) {        
+            padding: 20px 30%;        
+        }
+
+        &-text{
+            margin: 5px 0;
+            font-family: $ff-silkscreen;
+            font-size: 2.4rem;
+            color: $black;
+            background-color: $yellow;
+            border-bottom-left-radius: 5px;
+        }
+    }
+
+    &__tabs{
+        display: flex;
+
+        @include breakpoint-up(large) {        
+            padding: 0 30%;        
+        }
+    }
+}
