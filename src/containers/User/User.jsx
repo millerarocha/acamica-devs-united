@@ -6,7 +6,8 @@ import Button from '../../components/Button/Button';
 import UserPicture from '../../components/UserPicture/UserPicture';
 import TabButton from '../../components/TabButton/TabButton';
 
-import icon from '../../assets/images/logout.svg'
+import logoutIcon from '../../assets/images/logout.svg'
+import backIcon from '../../assets/images/pixelarrow.svg'
 import { tabs } from '../../utils/tabs';
 
 const User = ({
@@ -26,13 +27,15 @@ const User = ({
         <div className='user'>
             <header className="user-header">
                 <div className="user-header__info">
-                    <IconButton/>   
+                    <IconButton
+                        icon={backIcon}
+                    />   
                     <p className="user-header__info-text">{userName}</p>
                 </div>
                 <Button
                     isRed={true}
                     text='LOGOUT'
-                    icon={icon}
+                    icon={logoutIcon}
                 />
             </header>
             <div className="user__container">

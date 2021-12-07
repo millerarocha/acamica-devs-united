@@ -5,18 +5,15 @@ import image from '../../assets/images/leftarrow.svg';
 
 const IconButton = ({
     icon,
-    text=''
+    isSmall=false
 }) => {
     return (
         <>
             <img 
-                src={image} 
+                src={icon} 
                 alt="icon"
-                className='icon-btn'
+                className={`icon-btn ${isSmall?'icon-btn--small':''}`}
             />
-            <p className="icon-btn__text">
-                {text}
-            </p>
         </>
     )
 }

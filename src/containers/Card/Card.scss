@@ -1,0 +1,49 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+.card{
+    display: flex;
+    padding: 20px 5%;
+    border-bottom: 1px solid $inputColor;
+
+    &__user{
+        width: 10%;
+    }
+
+    &__container{
+        width: 90%;
+        margin: 0 10px;
+    }
+
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+
+        &-username{
+            display: flex
+        }
+
+        &-title{
+            font-family: $ff-silkscreen;
+            background-color: $yellow;
+            font-size: 1.6rem;
+            font-weight: $fw-regular;
+            color: $black;
+            padding: 3px;
+            border-bottom-left-radius: 3px;
+        }
+
+        &-date{
+            font-size: 1.4rem;
+            margin-left: 5px;
+        }
+
+    }
+    &__text{
+        font-size: 1.2rem;
+        font-weight: $fw-regular;
+        margin: 10px 0;
+    }
+}
