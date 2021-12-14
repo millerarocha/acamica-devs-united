@@ -45,6 +45,7 @@ const User = ({
             <div className="user__tabs">
                 {(tabsList||[]).map((tab)=>{
                     return <TabButton
+                                key={tab.id}
                                 text={tab.name}
                                 isSelected={tab.checked}
                                 onClick={()=>{updateTabChecked(tab.name)}}

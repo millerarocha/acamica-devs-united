@@ -13,7 +13,7 @@ const UserPicture = ({
     return (
         <img 
             src={photo} 
-            alt={`${username} profile picture`} 
+            alt={`${username}`} 
             className={`user-picture ${isSmall?'user-picture--small':''} ${isBig?'user-picture--big':''}`}
             onClick={onClick}
         />
